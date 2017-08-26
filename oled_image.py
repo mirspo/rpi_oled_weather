@@ -11,20 +11,11 @@ import PIL.ImageOps
 import ImageDraw
 import ImageFont
 
-#https://learn.adafruit.com/ssd1306-oled-displays-with-raspberry-pi-and-beaglebone-black/usage
-#https://www.google.ru/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwiu5pmNo4PRAhVBVSwKHTLhB9EQFggsMAI&url=https%3A%2F%2Fgithub.com%2Fadafruit%2FAdafruit_Python_SSD1306&usg=AFQjCNFzAU01vv2BJqM_x9Tr5CRDe-3NCA
-
-#<a href="http://meteoinfo.ru/forecasts5000/russia/novgorod-area/novgorod">
-#<img src="http://www.meteoinfo.ru/informer/informer.php?ind=26179&type=1&color=0" alt="Гидрометцентр России" border="0" height="100" width="100"></a>
-
-#url = '<a href="https://clck.yandex.ru/redir/dtype=stred/pid=7/cid=1228/*https://pogoda.yandex.ru/24" target="_blank"><img src="//info.weather.yandex.net/24/1_white.ru.png?domain=ru" border="0" alt="Яндекс.Погода"/><img width="1" height="1" src="https://clck.yandex.ru/click/dtype=stred/pid=7/cid=1227/*https://img.yandex.ru/i/pix.gif" alt="" border="0"/></a>'
-#url = "http://www.meteoinfo.ru/informer/informer.php?ind=26179&type=1&color=0"
 
 SLEEP_TIME  = 30
 RST = 24
 
 
-#url = "https://info.weather.yandex.net/24/1_white.ru.png?domain=ru"
 url = "https://info.weather.yandex.net/24/3_white.ru.png?domain=ru"
 
 tmp_file = '/tmp/wather.png'
