@@ -16,3 +16,6 @@ $ cat /etc/cron.d/oled
 #MAILTO=root
 @reboot root sleep 15 && /usr/bin/python /home/pi/Python/oled_image.py >> /home/pi/debug.log
 0 * * * * root /usr/bin/python /home/pi/Python/oled_image.py
+
+Используется вот эта библиотека
+https://github.com/adafruit/Adafruit_SSD1306
